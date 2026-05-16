@@ -1,26 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>ITZEN TECH SUPPORT & SERVICES</title>
 
   <link rel="icon" type="image/png" href="LOGO.png">
 
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f4f4f4;
+    }
+
+    header{
+      background:#0f172a;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#1e293b;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-size:18px;
+    }
+
+    nav a:hover{
+      color:#38bdf8;
+    }
+
+    .hero{
+      text-align:center;
+      padding:100px 20px;
+    }
+
+    .hero h1{
+      font-size:50px;
+      color:#0f172a;
+    }
+
+    .hero p{
+      font-size:20px;
+      color:#555;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 25px;
+      background:#0ea5e9;
+      color:white;
+      text-decoration:none;
+      border-radius:5px;
+    }
+
+    .btn:hover{
+      background:#0284c7;
+    }
+  </style>
 </head>
 
-<body class="bg-gray-100">
+<body>
 
-  <h1 class="text-5xl font-bold text-blue-600 text-center mt-20">
-    ITZEN TECH SUPPORT SERVICES
-  </h1>
+  <header>
+    <h1>ITZEN TECH SUPPORT & SERVICES</h1>
+  </header>
 
-  <p class="text-center text-gray-700 mt-4">
-    SERVICES
-  </p>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Professional Tech Support</h1>
+    <p>Computer Repair, Networking, Software Installation, and IT Solutions</p>
+
+    <a href="#" class="btn">Learn More</a>
+  </section>
 
 </body>
 </html>
